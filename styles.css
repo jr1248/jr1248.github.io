@@ -17,7 +17,7 @@ body{
     border: 10px white dotted;
     margin:30px;
     height: 900px;
-    width: 1250px;
+    width: 1300px;
     background-color: mistyrose;
     grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
     grid-gap: 10px;
