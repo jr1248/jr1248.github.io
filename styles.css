@@ -20,7 +20,7 @@ body{
     width: 1425px;
     background-color: mistyrose;
     grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
-    grid-gap: 10px;
+    grid-gap: 5px;
   }
   
   .a {
@@ -29,20 +29,20 @@ body{
     
   }
   .b{
-    grid-column-start:3;
+    grid-column-start:2;
     grid-column-end: 4; 
   }
   .c{
-    grid-column-start:5;
+    grid-column-start:4;
     grid-column-end: 6;
   }
   .d{
-    grid-column-start:7;
+    grid-column-start:6;
     grid-column-end: 8;
   }
   .e{
-    grid-column-start:9;
-    grid-column-end: 10;
+    grid-column-start:8;
+    grid-column-end: 11;
   }
   .f{
     grid-area: 2 / 2 / span 4 / span 6;
@@ -55,6 +55,7 @@ body{
     grid-row: 6/10;
     grid-column: 1/6;   
   }
+  
   .box {
     background-color:plum;
     color: white;
