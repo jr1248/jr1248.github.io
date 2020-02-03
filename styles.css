@@ -1,0 +1,68 @@
+.header{
+    text-align: center;
+    font-size: 30px;
+    font-family: Lucida Sans;
+    background-color: black;
+    padding: 100px 25px 100px 25px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyDUXqI6BTCm0pqeuhC1kfuW63mwMT9IChc30tkZOnC3-3xjRY_Q&s);
+}
+h1{
+    color:plum;
+}
+body{
+    background-color:plum;
+}
+.grid {
+    display: grid;
+    border: 10px white dotted;
+    margin:30px;
+    height: 900px;
+    width: 1250px;
+    background-color: mistyrose;
+    grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+    grid-gap: 10px;
+  }
+  
+  .a {
+      grid-column-start:1;
+      grid-column-end: 2;
+    
+  }
+  .b{
+    grid-column-start:3;
+    grid-column-end: 4; 
+  }
+  .c{
+    grid-column-start:5;
+    grid-column-end: 6;
+  }
+  .d{
+    grid-column-start:7;
+    grid-column-end: 8;
+  }
+  .e{
+    grid-column-start:9;
+    grid-column-end: 10;
+  }
+  .f{
+    grid-area: 2 / 2 / span 4 / span 6;
+    
+  }
+  .g{
+    grid-area: 6 / 6 / span 4 / span 6;  
+  }
+  .h{
+    grid-row: 6/10;
+    grid-column: 1/6;   
+  }
+  .box {
+    background-color:plum;
+    color: white;
+    text-align: center;
+    padding-top:10px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 5px palevioletred solid;
+  }
+
+  
