@@ -11,15 +11,13 @@ h1{
 }
 body{
     background-color:plum;
+    width: auto;
+    height: auto;
 }
 .grid {
     display: grid;
     border: 10px white dotted;
     margin:30px;
-    height: 100%;
-    width: 100%;
-    max-width: 1000px;
-    max-height: 1000px;
     background-color: mistyrose;
     grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
     grid-gap: 5px;
