@@ -1,20 +1,19 @@
-const cast_div= document.getElementById("The Cast");
-const story_div= document.getElementById("Stories");
-const music_div= document.getElementById("Music");
-const about_div= document.getElementById("About");
-const store_div= document.getElementById("Store");
-cast_div.addEventListener('click',function(){
-    console.log("you clicked on cast");
-})
-story_div.addEventListener('click', function(){
-    console.log("you clicked on story");
-})
-music_div.addEventListener('click',function(){
-    console.log("you clicked on music");
-})
-about_div.addEventListener('click',function(){
-    console.log("you clicked on about");
-})
-store_div.addEventListener('click',function(){
-    console.log("you clicked on store");
-})
+let cast_button= document.getElementById("The-Cast");
+let story_button= document.getElementById("Stories");
+let music_button= document.getElementById("Music");
+let about_button= document.getElementById("About");
+let store_button= document.getElementById("Store");
+function rgb(num) {
+    return Math.floor(Math.random() * num);
+  }
+  
+  
+  let colorChange = function (event) {
+    let randomColor = 'rgb(' + rgb(255) + ',' + rgb(255) + ',' + rgb(255) + ')';
+    event.target.style.backgroundColor = randomColor;
+  }
+cast_button.onclick=colorChange;
+story_button.onclick=colorChange;
+music_button.onclick=colorChange;
+about_button.onclick=colorChange;
+store_button.onclick=colorChange;

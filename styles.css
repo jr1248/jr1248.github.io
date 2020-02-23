@@ -23,26 +23,72 @@ body{
     grid-gap: 5px;
   }
   
-  .a {
+  #The-Cast {
       grid-column-start:1;
       grid-column-end: 2;
-    
-  }
-  .b{
+      cursor: pointer;
+      background-color:plum;
+      color: white;
+     text-align: center;
+      padding-top:10px;
+      font-size: 30px;
+      border-radius: 5px;
+      border: 5px palevioletred solid;
+      font-family: -apple-system; 
+  }  
+  
+  #Stories{
     grid-column-start:2;
     grid-column-end: 4; 
+    cursor: pointer;
+    background-color:plum;
+    color: white;
+   text-align: center;
+    padding-top:10px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 5px palevioletred solid;
+    font-family: -apple-system; 
   }
-  .c{
+  #Music{
     grid-column-start:4;
     grid-column-end: 6;
+    cursor: pointer;
+    background-color:plum;
+    color: white;
+   text-align: center;
+    padding-top:10px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 5px palevioletred solid;
+    font-family: -apple-system; 
   }
-  .d{
+  #About{
     grid-column-start:6;
     grid-column-end: 8;
+    cursor: pointer;
+    background-color:plum;
+    color: white;
+   text-align: center;
+    padding-top:10px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 5px palevioletred solid;
+    font-family: -apple-system; 
+    
   }
-  .e{
+  #Store{
     grid-column-start:8;
     grid-column-end: 11;
+    cursor: pointer;
+    background-color:plum;
+    color: white;
+   text-align: center;
+    padding-top:10px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 5px palevioletred solid;
+    font-family: -apple-system; 
   }
   .f{
     grid-area: 2 / 2 / span 4 / span 6;
@@ -64,6 +110,8 @@ body{
     font-size: 30px;
     border-radius: 5px;
     border: 5px palevioletred solid;
+    font-family: -apple-system;
   }
+
 
   
