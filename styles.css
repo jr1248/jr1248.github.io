@@ -19,41 +19,47 @@ body{
     border: 10px white dotted;
     margin:30px;
     background-color: mistyrose;
-    grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+    grid-template: repeat(15, 1fr 2fr) / repeat(15, 3fr 2fr);
     grid-gap: 5px;
 }
 .a{
-  width: 100%;
-  margin-left: 20px;
-  margin-right: 30px;
+ float:inline-start;
+ 
 }
 .b{
-  width: 100%;
-  margin-left: 80%;
+  float:inline-start;
+  
 }
 .c{
-  width: 100%;
-  margin-left: 110%;
+  float:inline-start;
+ 
 }
 .d{
-  width: 100%;
-  margin-left: 260%;
+  float:inline-start;
+ 
 }
 .e{
-  width: 100%; 
-  margin-left: 240%;
-  margin-right: 30px;
+  float:inline-start;
+ 
 }
 .f{
-   grid-area: 2 / 2 / span 4 / span 6;
-    
+   grid-row-start:1;
+   grid-row-end:40;
+   grid-column-start:2;
+   grid-column-end:30;
+   margin-right: 25px;
 }
 .g{
-  grid-area: 6 / 6 / span 4 / span 6;  
+  grid-row-start:50;
+   grid-row-end:90;
+   grid-column-start:16;
+   grid-column-end:30;
 }
 .h{
-  grid-row: 6/10;
-  grid-column: 1/6;   
+  grid-row-start:50;
+   grid-row-end:90;
+   grid-column-start:2;
+   grid-column-end:14;  
 }
   
 .box {
@@ -66,6 +72,18 @@ body{
   border: 5px palevioletred solid;
   font-family: -apple-system;
 }
-
-
-  
+.button{
+  background-color:plum;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: -apple-system;
+  padding-top: 10px;
+}
+.buttons{
+  border: whitesmoke double;
+  background-color:darkorchid;
+  font-family: -apple-system;
+  font-size: 30px;
+  border-radius: 10px round;
+}
