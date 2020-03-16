@@ -13,28 +13,16 @@ body{
     background-color:plum;
     width: auto;
     height: auto;
-    justify-items: center;
 }
 .Bulletine {
     border: 10px white dotted;
     margin:30px;
     background-color: mistyrose;
-    height: auto;
-    width: auto;
-    display: grid;
+    display: inline-block;
+    padding-top: 35px;
+    padding-left: 35px;
   }
 
-
-.box {
-  background-color:plum;
-  color: white;
-  text-align: center;
-  padding-top:10px;
-  font-size: 30px;
-  border-radius: 5px;
-  border: 5px palevioletred solid;
-  font-family: -apple-system;
-}
 .button{
   background-color:plum;
   color: white;
@@ -57,7 +45,7 @@ body{
 
 .text{
   text-align: center;
- 
+  font-family: apple-system;
   font-size: 30px;
 }
 
@@ -67,18 +55,42 @@ body{
   box-shadow: 0 3px 6px rgba(0,0,0,.25);
   -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
   -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
-  margin: 8px;
+  margin: 70px;
   border: 1px solid rgba(0,0,0,.25);
-  float:left;    
-  margin-left: 400px; 
+  float: right;
+}
+.note2 {
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  margin: 40px;
+  border: 1px solid rgba(0,0,0,.25);
+  float: left;
+ 
 }
 
 .sticky1 {
-  transform: rotate(.5deg);
-  -webkit-transform: rotate(.5deg);
-  -moz-transform: rotate(.5deg);
+  transform: rotate(-1.5deg);
+  -webkit-transform: rotate(-1.5deg);
+  -moz-transform: rotate(-1.5deg);
   background-color: #CBFAFA; 
+  background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, skyblue 50%, black 100%);
+  background-image: -webkit-radial-gradient(45px 45px, circle cover, skyblue, black);
+  background-image: radial-gradient(skyblue 50%, black 100%);
 }
 
+.sticky2{
+  
+  transform: rotate(1.5deg);
+  -webkit-transform: rotate(1.5deg);
+  -moz-transform: rotate(1.5deg);
+  background-color: #CBFAFA; 
+  background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, skyblue 50%, black 100%);
+  background-image: -webkit-radial-gradient(45px 45px, circle cover, skyblue, black);
+  background-image: radial-gradient(skyblue 50%, black 100%);
+
+}
 
 
