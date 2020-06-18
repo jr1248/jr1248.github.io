@@ -10,7 +10,7 @@ h1{
     color:plum;
 }
 body{
-    background-color: peachpuff;
+    background-color: rgb(110, 90, 110);;
     width: auto;
     height: auto;
 }
@@ -22,7 +22,7 @@ body{
   }
 
 .button{
-  background-color:rgb(173, 125, 197);
+  background-color:rgb(110, 90, 110);
   color: white;
   text-align: center;
   font-size: 30px;
@@ -32,7 +32,7 @@ body{
 }
 .buttons{
   border: whitesmoke double;
-  background-color:rgb(173, 125, 197);
+  background-color:rgb(146, 123, 158);
   font-family: -apple-system;
   font-size: 30px;
   border-radius: 10px round;
